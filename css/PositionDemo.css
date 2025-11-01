@@ -1,0 +1,44 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+div {
+    border: 2px solid black;
+}
+
+#outer {
+    height: 500px;
+    /* padding: 20px; */
+}
+
+#first,
+#second,
+#third {
+    margin: 20px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+
+#first {
+    background-color: red;
+    position: fixed;
+    left: 380px;
+    top: 0px;
+}
+
+#second {
+    background-color: yellow;
+    position: relative;
+    /* left: 20px; */
+    right: 20px;
+    top: 30px;
+}
+
+#third {
+    background-color: green;
+    position: absolute;
+    top:40px;
+
+}

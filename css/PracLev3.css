@@ -1,0 +1,39 @@
+#heading {
+    text-align: center;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace
+}
+
+#outer {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border: 2px solid #000000;
+    padding: 20px 70px;
+    text-align: center;
+}
+
+#inner {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-size: 10px;
+    border: 2px solid red;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#icon {
+    display: inline-block;
+    height: 200px;
+    width: 400px;
+}
+
+#circle {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* display: inline; */
+}

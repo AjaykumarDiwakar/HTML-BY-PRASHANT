@@ -1,0 +1,22 @@
+/* #question2{
+    color:rgb(223, 129, 21);
+}
+#div{
+    background: rebeccapurple;
+    color: chocolate;
+}
+.para{
+   background-image: url('/image/praclev1.png'); 
+
+   height: 400px;
+   color: red;
+}
+
+h2{
+    color: pink;
+} */
+
+#first,
+#second {
+    color: blue;
+}
