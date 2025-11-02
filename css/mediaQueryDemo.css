@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 2px;
+    display: flex;
+}
+
+#box1,
+#box2,
+#left {
+    border: 2px solid black;
+    margin: 5px;
+}
+
+#left {
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+#right {
+    height: 100px;
+    width: 300px;
+}
+
+img {
+    height: 100px;
+    margin: 5px;
+}
+
+@media (max-width:800px) {
+    .container {
+        flex-direction: column;
+        background-color: yellowgreen;
+    }
+}
+
+#shadow{
+    border: 2px solid black;
+    height: 100px;
+    padding:20px;
+    background-color:saddlebrown;
+    text-shadow: 2px 2px 2px white,2px 2px 2px green;
+
+}
